@@ -16,13 +16,13 @@ public class GameStage extends Stage {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/crapsgame/game-view.fxml"));
         Parent root = loader.load();
         gameController = loader.getController();
-        setTitle("Ventana juego de craps");
         Scene scene = new Scene(root);
+        setTitle("Juego de Craps");
         getIcons().add(
                 new Image(
                         String.valueOf(getClass().getResource("/org/example/crapsgame/images/favicon.png"))));
-        setScene(scene);
         setResizable(false);
+        setScene(scene);
         show();
     }
 
@@ -32,6 +32,10 @@ public class GameStage extends Stage {
 
     public static GameStage getInstance() throws IOException{
         return GameStageHolder.INSTANCE = new GameStage();
+    }
+    public static void deleteInstance() {
+        GameStageHolder.INSTANCE.close();
+        GameStageHolder.INSTANCE = null;
     }
 
     private static class GameStageHolder {

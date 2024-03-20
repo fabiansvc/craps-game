@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb3a047f-e23d-4205-a13d-5baf28e6ebcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/GameStage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/WelcomeStage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/alert/AlertBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/alert/IAlertBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/player/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/CustomMouseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/GPS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/MouseAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/MouseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/MusicPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/Radio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/Smartphone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/GameStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/GameStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/WelcomeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/WelcomeStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/game-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -63,13 +56,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "fsvc",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/craps-game",
+    "last_opened_file_path": "C:/Users/fsvc1/Coding/craps-game",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,23 +78,9 @@
       <recent name="org.example.crapsgame" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fsvc1\Coding\craps-game\src\main\resources\org\example\crapsgame\images\dices" />
       <recent name="D:\craps-game\src\main\resources\org\example\crapsgame\images" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="craps-game" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="craps-game" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -130,6 +110,8 @@
       <workItem from="1710370928712" duration="29000" />
       <workItem from="1710443657541" duration="8817000" />
       <workItem from="1710458478503" duration="300000" />
+      <workItem from="1710792029178" duration="135000" />
+      <workItem from="1710799589499" duration="7135000" />
     </task>
     <servers />
   </component>

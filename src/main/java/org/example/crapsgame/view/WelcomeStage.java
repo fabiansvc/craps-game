@@ -14,18 +14,23 @@ public class WelcomeStage extends Stage {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(
                 "/org/example/crapsgame/welcome-view.fxml"));
         Parent root = loader.load();
-        setTitle("Juego de Craps");
         Scene scene = new Scene(root);
+        setTitle("Juego de Craps");
         getIcons().add(
                 new Image(
                 String.valueOf(getClass().getResource("/org/example/crapsgame/images/favicon.png"))));
-        setScene(scene);
         setResizable(false);
+        setScene(scene);
         show();
     }
 
     public static WelcomeStage getInstance() throws IOException{
         return WelcomeStageHolder.INSTANCE = new WelcomeStage();
+    }
+
+    public static void deleteInstance() {
+        WelcomeStageHolder.INSTANCE.close();
+        WelcomeStageHolder.INSTANCE = null;
     }
 
     private static class WelcomeStageHolder {
