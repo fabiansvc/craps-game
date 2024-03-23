@@ -2,6 +2,8 @@ package org.example.crapsgame.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import org.example.crapsgame.model.Dice;
@@ -11,6 +13,10 @@ public class GameController {
 
     @FXML
     private AnchorPane anchorPane;
+    @FXML
+    private Label pointLabel, shotLabel;
+    @FXML
+    private TextArea resultTextArea;
 
     private Player player;
     private Dice dice1, dice2;
@@ -27,12 +33,12 @@ public class GameController {
         dice2 = new Dice();
 
         diceImageView1 = dice1.getDiceImage();
-        diceImageView1.setX(96);
-        diceImageView1.setY(96);
+        diceImageView1.setX(76);
+        diceImageView1.setY(50);
 
         diceImageView2 = dice2.getDiceImage();
-        diceImageView2.setX(288);
-        diceImageView2.setY(96);
+        diceImageView2.setX(170);
+        diceImageView2.setY(50);
 
         anchorPane.getChildren().addAll(diceImageView1, diceImageView2);
     }
