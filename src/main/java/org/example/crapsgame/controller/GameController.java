@@ -13,25 +13,28 @@ public class GameController {
     private AnchorPane anchorPane;
 
     private Player player;
-    private ImageView dice1, dice2;
+    private Dice dice1, dice2;
+    private ImageView diceImageView1, diceImageView2;
 
     @FXML
     public void onHandleButtonRollTheDice(ActionEvent event) {
-        if (dice1 != null && dice2 != null) {
-            anchorPane.getChildren().remove(dice1);
-            anchorPane.getChildren().remove(dice2);
+        if (diceImageView1 != null && diceImageView2 != null) {
+            anchorPane.getChildren().remove(diceImageView1);
+            anchorPane.getChildren().remove(diceImageView2);
         }
 
-        dice1 = new Dice().getDiceImage();
-        dice1.setX(96);
-        dice1.setY(96);
+        dice1 = new Dice();
+        dice2 = new Dice();
 
-        dice2 = new Dice().getDiceImage();
-        dice2.setX(288);
-        dice2.setY(96);
+        diceImageView1 = dice1.getDiceImage();
+        diceImageView1.setX(96);
+        diceImageView1.setY(96);
 
-        anchorPane.getChildren().add(dice1);
-        anchorPane.getChildren().add(dice2);
+        diceImageView2 = dice2.getDiceImage();
+        diceImageView2.setX(288);
+        diceImageView2.setY(96);
+
+        anchorPane.getChildren().addAll(diceImageView1, diceImageView2);
     }
 
     public void setPlayer(Player player) {

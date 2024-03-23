@@ -5,10 +5,11 @@ import javafx.scene.image.ImageView;
 
 public class Dice {
     private ImageView diceImage;
+    private int numDice;
 
     public Dice (){
         String PATH = "/org/example/crapsgame/images/dices/";
-        int numDice = (int)(Math.random() * 6) + 1;
+        this.numDice = (int)(Math.random() * 6) + 1;
         this.diceImage =
                 new ImageView(
                         new Image(String.valueOf(getClass().getResource(PATH + "dice" + numDice + ".png"))                               )
@@ -18,5 +19,9 @@ public class Dice {
     }
     public ImageView getDiceImage() {
         return diceImage;
+    }
+
+    public int getNumDice() {
+        return numDice;
     }
 }
