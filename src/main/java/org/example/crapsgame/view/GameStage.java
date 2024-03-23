@@ -13,7 +13,7 @@ public class GameStage extends Stage {
     private GameController gameController;
 
     public GameStage() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/crapsgame/game-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/crapsgame/test-view.fxml"));
         Parent root = loader.load();
         gameController = loader.getController();
         Scene scene = new Scene(root);
@@ -33,6 +33,7 @@ public class GameStage extends Stage {
     public static GameStage getInstance() throws IOException{
         return GameStageHolder.INSTANCE = new GameStage();
     }
+
     public static void deleteInstance() {
         GameStageHolder.INSTANCE.close();
         GameStageHolder.INSTANCE = null;

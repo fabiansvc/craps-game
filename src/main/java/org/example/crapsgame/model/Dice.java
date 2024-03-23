@@ -14,8 +14,8 @@ public class Dice {
                 new ImageView(
                         new Image(String.valueOf(getClass().getResource(PATH + "dice" + numDice + ".png"))                               )
                 );
-        this.diceImage.setFitWidth(128);
-        this.diceImage.setFitHeight(128);
+        this.diceImage.setFitWidth(64);
+        this.diceImage.setFitHeight(64);
     }
     public ImageView getDiceImage() {
         return diceImage;
