@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb3a047f-e23d-4205-a13d-5baf28e6ebcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/images/dices/dice6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/controller/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/GameStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/GameStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/WelcomeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/view/WelcomeStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/crapsgame/game-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crapsgame/model/Dice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,30 +44,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "fsvc",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/fsvc1/Coding/craps-game",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fsvc&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fsvc1/Downloads/craps-game&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.crapsgame" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fsvc1\Coding\craps-game\src\main\resources\org\example\crapsgame\images\" />
       <recent name="C:\Users\fsvc1\Coding\craps-game\src\main\resources\org\example\crapsgame\images\dices" />
       <recent name="D:\craps-game\src\main\resources\org\example\crapsgame\images" />
     </key>
@@ -112,6 +103,11 @@
       <workItem from="1710458478503" duration="300000" />
       <workItem from="1710792029178" duration="135000" />
       <workItem from="1710799589499" duration="7135000" />
+      <workItem from="1710953256261" duration="922000" />
+      <workItem from="1710958677302" duration="712000" />
+      <workItem from="1710967131947" duration="515000" />
+      <workItem from="1711048181526" duration="2870000" />
+      <workItem from="1711061309636" duration="38000" />
     </task>
     <servers />
   </component>
